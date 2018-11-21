@@ -1,0 +1,110 @@
+@import url("https://fontlibrary.org/face/bebas");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Montserrat");
+@import url("reset.css");
+@import url("navbar.css");
+@import url("footer.css");
+@import url("project_button.css");
+@import url("contact_form.css");
+
+header{
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h2, h3, h4{
+  font-family: 'BebasNeueRegular', 'Oswald', serif;
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
+  font-size: 60px;
+}
+
+h3{
+  font-size: 50px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-family: 'Oswald', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+p{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.color1{
+  background-color: #376F7F;
+}
+
+.color2{
+  background-color: #BBEFFF;
+}
+
+.color3{
+  background-color: #6FDEFF;
+}
+
+.color4{
+  background-color: #5E787F;
+}
+
+.color5{
+  background-color: #59B1CC;
+}
+
+.color6{
+  background-color: #F5F5F5;
+}
+
+.color-box{
+  height: 100px;
+  width: 200px;
+}
+
+.main{
+  max-width: 80%;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project_text{
+  padding-top: 5%;
+}
+
+.project_image{
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#aboutMe{
+  padding: 20px;
+}
+
+#pictureMe{
+  padding: 20px;
+  float: right;
+}
+
+#myCV{
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 800px;
+}
